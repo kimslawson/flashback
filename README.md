@@ -14,17 +14,23 @@ Ah, that's a different question altogether. It has a simple interface that looks
 
 ![Flashback UI](flashback.png)
 
+## How do I use it?
+ 1. Download [flashback.html](flashback.html).
+ 2. Open it in your browser.
+ 3. ...
+ 4. Profit?
+
 ## Cool, but it's slow
-That's not a question. But you're right. A less naïve implementation would render all the snapshots to canvas and swap through them in memory.<sup>1</sup>
+That's not a question. But you're right. A less naïve implementation would render all the snapshots to canvas and swap through them in memory. See <sup>1</sup> below.
 
 ## Great, but why doesn't it do X
 Because I made it to solve a specific need, in a short period of time. File an issue with your request, or, better yet, a PR with your changes.
 
 ## TODO
- 1. Make it snappy. 🫡
- 2. Make resource loading robust across snapshots 🗺️
- 3. Work around `localStorage` limit of 5MB 💾
- 4. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
+ 1. <sup>1</sup> Make it snappy. 🫡
+ 2. Make resource loading robust across snapshots 🗺️<br /><em>This will involve mapping each linked resource on a page to a set of snapshots in which that resource is available, so that when a snapshot fails to cache said resource, we can substitute the closest-in-time archived version of it instead.</em>
+ 4. Work around `localStorage` limit of 5MB 💾
+ 5. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
 
 ## If you like this project
 If you think this is useful, thanks! I appreciate it. I think it's useful too. Please show your support by [donating to the Internet Archive](https://archive.org/donate), without which we would literally have lost decades of digital culture (and without whose shoulders this project would have nothing to stand upon).
