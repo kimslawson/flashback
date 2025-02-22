@@ -26,5 +26,4 @@ Because I made it to solve a specific need, in a short period of time. File an i
  * Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
 
 ## If you like this project
-If you think this is useful, thanks! I appreciate it. I think it's useful too. Please show your support by [donating to the Internet Archive](https://archive.org/donate), without which we would literally have lost decades of digital culture (and without which this project would have ![flashback](https://github.com/user-attachments/assets/1599dbd8-5ddb-4382-abc7-b5751b421a27)
-![so-what-is-it-cat-red-dwarf](https://github.com/user-attachments/assets/43dba5c4-6460-4f9d-b278-7929bee6a715)
+If you think this is useful, thanks! I appreciate it. I think it's useful too. Please show your support by [donating to the Internet Archive](https://archive.org/donate), without which we would literally have lost decades of digital culture (and without whose shoulders this project would have nothing to stand upon).
