@@ -15,15 +15,15 @@ Ah, that's a different question altogether. It has a simple interface that looks
 ![Flashback UI](flashback.png)
 
 ## Cool, but it's slow
-That's not a question. But you're right. A less naïve implementation would render all the snapshots to canvas and swap through them in memory.
+That's not a question. But you're right. A less naïve implementation would render all the snapshots to canvas and swap through them in memory.<sup>1</sup>
 
 ## Great, but why doesn't it do X
 Because I made it to solve a specific need, in a short period of time. File an issue with your request, or, better yet, a PR with your changes.
 
 ## TODO
- * Make it snappy. 🫡
- * Make resource loading robust across snapshots 🗺️
- * Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
+ 1. Make it snappy. 🫡
+ 2. Make resource loading robust across snapshots 🗺️
+ 3. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
 
 ## If you like this project
 If you think this is useful, thanks! I appreciate it. I think it's useful too. Please show your support by [donating to the Internet Archive](https://archive.org/donate), without which we would literally have lost decades of digital culture (and without whose shoulders this project would have nothing to stand upon).
