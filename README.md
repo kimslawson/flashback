@@ -23,7 +23,8 @@ Because I made it to solve a specific need, in a short period of time. File an i
 ## TODO
  1. Make it snappy. 🫡
  2. Make resource loading robust across snapshots 🗺️
- 3. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
+ 3. Work around `localStorage` limit of 5MB 💾
+ 4. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)) 🧑‍💻
 
 ## If you like this project
 If you think this is useful, thanks! I appreciate it. I think it's useful too. Please show your support by [donating to the Internet Archive](https://archive.org/donate), without which we would literally have lost decades of digital culture (and without whose shoulders this project would have nothing to stand upon).
