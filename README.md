@@ -30,7 +30,7 @@ Because I made it to solve a specific need, in a short period of time. File an i
  1. <sup>1</sup> Make it snappy. 🫡
  2. Make resource loading robust across snapshots. 🗺️<br /><em>This will involve mapping each linked resource on a page to a set of snapshots in which that resource is available, so that when a snapshot fails to cache said resource, we can substitute the closest-in-time archived version of it instead.</em>
  4. Work around `localStorage` limit of 5MB. 💾
- 5. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/)). 🧑‍💻
+ 5. Support other `memento` providers besides the Internet Archive (see [RFC 7809](https://mementoweb.org/guide/rfc/), also check out [other memento tools](https://mementoweb.org/tools/)). 🧑‍💻
 
 ## If you like this project
 If you think this is useful, thanks! I appreciate it. I think it's useful too. Please show your support by [donating to the Internet Archive](https://archive.org/donate), without which we would literally have lost decades of digital culture (and without whose shoulders this project would have nothing to stand upon).
