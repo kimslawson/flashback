@@ -27,6 +27,7 @@ That's not a question. But you're right. A less naïve implementation would rend
 Because I made it to solve a specific need, in a short period of time. File an issue with your request, or, better yet, a PR with your changes.
 
 ## TODO
+ 0. Tested extensively in Safari. Need to test on other browsers and platforms.
  1. <sup>1</sup> Make it snappy. 🫡
  2. Make resource loading robust across snapshots. 🗺️<br /><em>This will involve mapping each linked resource on a page to a set of snapshots in which that resource is available, so that when a snapshot fails to cache said resource, we can substitute the closest-in-time archived version of it instead.</em>
  4. Work around `localStorage` limit of 5MB. 💾
