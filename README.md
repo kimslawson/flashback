@@ -4,7 +4,7 @@ Quickly compare webpage snapshots over time
 ## What is it?
 A single-page web app that aims to present a useful and user-friendly front end to the Internet Archive's `memento` store and the Wayback Machine.
 
-![](so-what-is-it-cat-red-dwarf.gif)
+![](cat-what-is-it.gif)
 
 ## Ok, but what is it?
 Right now it's a proof-of-concept implementation in Javascript, HTML, and CSS to provide a portal into which one can scry for changes to the webpage of their choosing, first by submitting a URL, then scrubbing a slider back and forth through time.
