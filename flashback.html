@@ -221,13 +221,9 @@
         // Updated Archive.org service
         const archive = {
             async getSnapshots(url) {
-                const headers = new Headers({
-                    'Origin': window.location.origin
-                });
-
                 const cdxUrl = `https://web.archive.org/cdx/search/cdx?url=${encodeURIComponent(url)}&output=json&fl=timestamp,original,statuscode&filter=statuscode:200&collapse=timestamp:8`;
-                
-                const response = await fetch(cdxUrl, { headers, mode: 'cors' });
+
+                const response = await fetch(cdxUrl, { mode: 'cors' });
 
                 if (!response.ok) {
                     throw new Error('Failed to fetch snapshots');
